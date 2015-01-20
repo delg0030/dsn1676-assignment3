@@ -26,7 +26,6 @@ body {
     padding: 0;
 }
 
-
 .astroid {
     position:absolute;
     top: 200px;
@@ -64,6 +63,7 @@ body {
     animation: ship-move 10s ease-in-out infinite;
     transform-origin: left center;
 }
+
 @-webkit-keyframes ship-move {
     0% {
         -webkit-transform: translateY(0px);
@@ -123,10 +123,3 @@ body {
         transform:scale(1.5);
     }
 }
-    
-
-
-
-
-
-
